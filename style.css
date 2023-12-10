@@ -70,11 +70,27 @@ section {
     align-items:center;
 
 }
+/* #compart {
+    position: relative;
+    min-height: 250px;
+    width: 90%;
+    border-radius: 20px;
+    border: 2px dashed #160080ab;
+    margin: 10px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+
+} */
+.msg {
+    color: #2432fd;
+}
 
 .msg span {
   color: rebeccapurple;
 }
-button {
+.start {
+    text-decoration: none;
     color: #2432fdce;
     border-radius: 10px 5px;
     border:royalblue;
@@ -87,8 +103,9 @@ button {
     text-align: center;
     
 }
-button:hover {
+.start:hover {
     color: snow ;
+    cursor: pointer;
     text-decoration: solid;
     background: linear-gradient(85deg, #ffda37, #2432fd);
     transition: 0.5s;
