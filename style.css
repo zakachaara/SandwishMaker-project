@@ -6,12 +6,14 @@
 }
 
 body {
-    background: linear-gradient(135deg, #ffda37, #2432fd);
+    background: url("./view/bg.jpg") center/cover no-repeat;
+    /* background: linear-gradient(135deg, #ffda37, #2432fd); */
 }
 
 header h1 {
     text-align: center;
     color: snow;
+    text-shadow: 0 3px 2px #f2ff00;
     letter-spacing: 4px;
     font-family: "Black Ops One", Verdana;
     text-transform: capitalize;
@@ -20,6 +22,8 @@ header h1 {
 }
 header h2 {
     text-align: center;
+    color: #f3f3fb;
+    text-shadow: 0px 20px 1px #cfbe22;
     letter-spacing: 3px;
     font-family: "Dancing Script", Verdana;
     text-transform: capitalize;
@@ -31,9 +35,9 @@ section {
     max-height: 90vh;
     margin: 30px 10px 10px 0;
     padding: 10px;
-    background: #f3f5f44a;
+    background: #5f40d561;
     border-radius: 5px;
-    box-shadow: -2px -3px 20px 2px rgb(96 125 233 / 55%);
+    box-shadow: -2px -3px 20px 2px #5f40d561;
     display: flex;
     justify-content:space-between;  
 }
@@ -43,8 +47,8 @@ section {
     display: flex;
     border: 2px solid rgba(255, 255, 255, 0.781);
     border-radius: 5px;
-    box-shadow: -2px -3px 20px 2px #fdd70185;
-    background: #9fc3a452;
+    box-shadow: -2px -3px 20px 2px #01cefd54;
+    background: #31797357;
     width: 45%;
     height: 485px;
     align-items: self-start;
@@ -53,10 +57,10 @@ section {
 }
 #titre {
     width: 100%;
-    color: #c90606be;
-    text-align:center;
+    color:#c6d3ca;
+    text-align: center;
     letter-spacing: 3px;
-    text-shadow: 0 0 0  #176d429c;
+    text-shadow: -1px 5px 6px #f2ff00;
 }
 .content #compart {
     position: relative;
@@ -83,20 +87,44 @@ section {
 
 } */
 .msg {
-    color: #2432fd;
+    color: #efeff1;
+    font-size: 1rem;
 }
 
 .msg span {
-  color: rebeccapurple;
+  color: rgb(22, 41, 4);
+  text-transform: uppercase;
+  text-shadow: 4px -1px 4px #fffcfb;
 }
+.ova {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.oval {
+    height: 50px;
+    width: 200px;
+    background-color: #b1acac;
+    box-shadow: inset 0px 6px 15px 1px #fffcfb;
+    border-radius: 100% 0 0 0;
+}
+.oval1 {
+  height: 40px;
+  width: 80px;
+  background-color: #121212;
+  box-shadow: inset 0px 18px 15px 1px #000000;
+  border-radius: 0 20% 20%  0;
+}
+
 .start {
-    text-decoration: none;
-    color: #2432fdce;
-    border-radius: 10px 5px;
-    border:royalblue;
-    font-family: cursive;
+    text-decoration: solid; 
+    color: snow  ;
+    border-radius: 10px;
+    border-color:royalblue;
+    padding: 5px;
     font-size: 2rem;
-    margin: 10px;
+    margin-left: 30x;
     width: 90%;
     height: 45px;
     transition: 0.3s;
@@ -104,10 +132,12 @@ section {
     
 }
 .start:hover {
-    color: snow ;
+    color: #2432fdce;
+    border-radius: 10px;
+    border:royalblue;
     cursor: pointer;
     text-decoration: solid;
-    background: linear-gradient(85deg, #ffda37, #2432fd);
+    background: linear-gradient(85deg, #7f7db7, #24fdf6);
     transition: 0.5s;
 
 }
