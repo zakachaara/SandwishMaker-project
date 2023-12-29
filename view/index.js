@@ -9,3 +9,15 @@ function ShowHide($element, i ){
         (document.getElementById($element)).style.display = 'block';
     }   
 }
+var dis = false;
+function ShowHideSeed(){
+    if (dis == true){
+        dis = false;
+        (document.getElementById('sd')).style.display = 'none';
+        (document.getElementById('sdd')).style.display = 'none';
+    }else {
+        dis = true;
+        (document.getElementById('sd')).style.display = 'block';
+        (document.getElementById('sdd')).style.display = 'block';
+    }   
+}
